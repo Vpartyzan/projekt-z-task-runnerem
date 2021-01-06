@@ -16,7 +16,7 @@ body {
   text-align: left;
 }
 
-/* Splash */
+/* Header */
 .header {
   height: 100vh;
   position: relative;
@@ -112,5 +112,72 @@ body {
   background-color: gold;
   color: white;
   border-color: gold;
+}
+
+/* Services */
+.services {
+  height: 70vh;
+  position: relative;
+}
+
+.services-icon {
+  width: 77px;
+  height: 75px;
+  color: gold;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  font-size: 35px;
+  border-width: 2px;
+  border-radius: 50%;
+  border-style: solid;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.services-icon i {
+  color: gold;
+  font-size: 35px;
+}
+
+.container-title {
+  text-align: center;
+  position: relative;
+  margin-top: 100px;
+}
+
+.container-title h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.container-title p {
+  font-family: "Libre Baskerville", serif;
+  margin-top: 10px;
+  color: gray;
+}
+
+.inner-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.services-inner {
+  margin-right: 25px;
+  text-align: center;
+}
+
+.services-inner h3 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+}
+
+.services-inner p {
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  color: grey;
+  margin-top: 10px;
 }
 /*# sourceMappingURL=style.css.map */
