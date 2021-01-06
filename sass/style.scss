@@ -1,0 +1,111 @@
+/* Global */
+
+$font-text: "Roboto Slab", serif;
+$font-header: "Montserrat", sans-serif;
+$font-italic: "Libre Baskerville", serif;
+$font-logo: 'Pinyon Script', cursive;
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 0 20px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Splash */
+
+.header {
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/Background_Image.png);    
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navigation {
+    display: flex;    
+    padding-top: 12px;
+    padding-bottom: 12px;
+    h2 {
+        font-family: $font-logo;
+        color: gold;
+    }    
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    li {
+        display: inline-block;
+        margin-right: 36px;
+        position: relative;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        font-family: $font-header;
+        font-size: 14px;
+    }
+}
+
+.navigation .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.splash {
+    display: flex;
+}
+
+.splash-inner {
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 130px;
+    z-index: 1;
+    color: white;
+    h3 {
+        font-family: $font-italic;
+        font-size: 35px;
+        font-weight: 300;
+        margin-bottom: 25px;
+    }
+    h1 {
+        font-family: $font-header;
+        font-size: 65px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+}
+
+.btn {
+    display: inline-block;
+    min-width: 200px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: $font-header;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    background-position: 100% 0;
+    background-size: 300%;
+    background-color: gold;
+    color: white;
+    border-color: gold;
+}
