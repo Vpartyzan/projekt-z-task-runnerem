@@ -209,3 +209,40 @@ body {
         color: grey;
     }
 }
+
+/* Footer */
+
+footer {
+    position: relative;
+}
+
+.wrapper {
+    display: inline-flex;
+    margin: 25px auto 25px auto;
+    p {
+        margin-left: 50px;
+        color: grey;
+    }
+    ul {
+        margin-left: 40px;
+        list-style-type: none;
+    }
+    li {
+        display: inline-block;
+        margin-right: 10px;
+        position: relative;
+    }
+    a {
+        width: 40px;
+        height: 40px;
+        background-color: #222222;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        text-decoration: none;
+    }
+    i {        
+        color: white;       
+    }
+}
