@@ -271,4 +271,64 @@ footer {
 .wrapper i {
   color: white;
 }
+
+/* Media */
+@media (max-width: 767px) {
+  .header {
+    height: 100vh;
+  }
+  .splash-inner {
+    top: 95px;
+  }
+  .splash-inner h1 {
+    font-size: 40px;
+  }
+  .splash-inner h3 {
+    font-size: 22px;
+  }
+  .navigation {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .navigation li {
+    display: block;
+  }
+  .inner-container {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .card-container {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .container {
+    width: 100%;
+  }
+  .container-title {
+    padding-top: 30px;
+    margin: 0 0 35px 0;
+  }
+  .services {
+    height: auto;
+  }
+  .wrapper {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+  .wrapper ul {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+  .services {
+    height: 30vh;
+    position: relative;
+  }
+}
 /*# sourceMappingURL=style.css.map */
